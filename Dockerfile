@@ -6,8 +6,7 @@ EXPOSE 8080
 
 COPY . .
 
-RUN npm install \
-    npm run build
+RUN npm install && npm run build
 
 USER node
 
