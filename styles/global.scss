@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+
+a:hover{
+    @apply text-blue-600;
+    @apply cursor-pointer;  
+}
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
