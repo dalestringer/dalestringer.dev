@@ -5,10 +5,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>dalestringer.dev</title>
-				<meta
-					name="description"
-					content="Web developer and tech enthusiast."
-				/>
+				<meta name="description" content="Web developer and tech enthusiast." />
 			</Head>
 			<section className="container p-5 md:mx-auto md:flex md:max-w-3xl md:items-center md:justify-center h-screen sm:flex-row text-gray-800">
 				<img
@@ -22,14 +19,13 @@ export default function Home() {
 						Hello, I'm Dale Stringer
 					</h1>
 					<p className="text-xl mb-2 md:text-2xl">
-						I'm a web developer from Birmingham, UK. Currently
-						working at{' '}
+						I'm a web developer from Birmingham, UK. Currently working at{' '}
 						<a
-							href="https://www.reapit.com/"
+							href="https://www.gbgplc.com/"
 							target="_blank"
 							className="underline"
 						>
-							Reapit
+							GBG plc
 						</a>
 						.
 					</p>
@@ -40,7 +36,7 @@ export default function Home() {
 								focusable="false"
 								data-prefix="fab"
 								data-icon="github"
-								class="w-6"
+								className="w-6"
 								role="img"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 496 512"
@@ -60,7 +56,7 @@ export default function Home() {
 								focusable="false"
 								data-prefix="fab"
 								data-icon="linkedin-in"
-								class="w-6"
+								className="w-6"
 								role="img"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 448 512"
@@ -77,7 +73,7 @@ export default function Home() {
 								focusable="false"
 								data-prefix="far"
 								data-icon="envelope"
-								class="w-6"
+								className="w-6"
 								role="img"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 512 512"
