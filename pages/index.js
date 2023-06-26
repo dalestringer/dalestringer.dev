@@ -30,7 +30,7 @@ export default function Home() {
 						.
 					</p>
 					<div className="flex space-x-3 items-center">
-						<a href="https://www.github.com/dayul/" target="_blank">
+						<a href="https://www.github.com/dalestringer/" target="_blank">
 							<svg
 								aria-hidden="true"
 								focusable="false"
